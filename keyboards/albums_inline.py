@@ -39,7 +39,7 @@ def create_albums_inline_kb(artist: Artist, albums: list[Album], release_type_ke
 
     factory = AlbumsCallbackFactory(album_id='', artist_id=artist.id, release_type=release_type_key)
     buttons.append(
-        InlineKeyboardButton(text="<< back", callback_data=factory.pack())
+        InlineKeyboardButton(text=LANG_GENERAL['back'], callback_data=factory.pack())
     )
 
     kb_builder.row(*buttons, width=1)
