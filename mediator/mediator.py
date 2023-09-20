@@ -196,8 +196,6 @@ def get_album_tracking_listing(discs: list[Disc]) -> str:
                 track_time = f"({track.time})"
             if track.composers:
                 track_composers = f"{LANG_GENERAL['Composers']}: <i>{track.composers}</i>\n"
-            # if track.performer:
-            #     track_performer = f"{LANG_GENERAL['Performer']}: {track.performer}"
             track_title = f"{track.number}. <u>{track.title}</u> {track_time}\n"
             result.append(''.join([track_title, track_composers]))
     return ''.join(result)

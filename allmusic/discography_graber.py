@@ -62,7 +62,4 @@ class DiscographyGraber(AllmusicBase):
 
 
 if __name__ == '__main__':
-    #a = DiscographyGraber().grab(url='https://www.allmusic.com/artist/tool-mn0000790820')
-    # a = DiscographyGraber().grab(url='https://www.allmusic.com/artist/metallica-mn0000446509')
-    #print(a)
     pass

@@ -34,7 +34,4 @@ class DiscographyFilterCheckGraber(AllmusicBase):
 
 
 if __name__ == '__main__':
-    #a = DiscographyFilterCheckGraber().grab(url='https://www.allmusic.com/artist/tool-mn0000790820')
-    #a = DiscographyFilterCheckGraber().grab(url='https://www.allmusic.com/artist/kaleo-mn0003393991')
-    #print(a)
     pass

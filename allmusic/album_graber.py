@@ -66,7 +66,4 @@ class AlbumGraber(AllmusicBase):
 
 
 if __name__ == '__main__':
-    #r = AlbumGraber().grab(url='https://www.allmusic.com/album/physical-graffiti-mw0000190771')
-    # AlbumGraber().grab(url='https://www.allmusic.com/album/undertow-mw0000260386')
-    #print(r)
     pass

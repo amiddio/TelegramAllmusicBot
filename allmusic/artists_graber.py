@@ -60,6 +60,4 @@ class ArtistsGraber(AllmusicBase):
 
 
 if __name__ == '__main__':
-    #r = ArtistsGraber().find(qw='1')
-    #print(r)
     pass
