@@ -1,1 +1,15 @@
-# TelegramAllmusicBot
+# Telegram Allmusic Bot
+
+Телеграм бот построен на фреймфорке aiogram. 
+
+Бот парсит сайт allmusic.com и выводит в телеграм дискографии и альбомы исполнителей и различных музыкальных групп.
+
+Например, вводим 'Red hot chili peppers'. Бот возвращает список кнопок-ссылок на альбомы, компиляции, синглы и т.д.
+Выбрав 'альбомы', отобразится список ссылок на студийные альбомы группы. 
+После выбора конкретного альбома отобразится список треков и его обложка.
+
+## Скриншоты работы бота
+
+![Screenshot_1](/screenshots/Screenshot_20230920-162534_Telegram.jpg)
+![Screenshot_1](/screenshots/Screenshot_20230920-162558_Telegram.jpg)
+![Screenshot_1](/screenshots/Screenshot_20230920-162900_Telegram.jpg)
